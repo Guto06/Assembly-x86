@@ -16,7 +16,7 @@ mov bh,al
 mov dl,61
 mov ah,2
 int 21H
-sub bl,BH
+add bl,bh
 mov dl,bh
 add dl,30h ; fun?ao para somar 
 mov ah,02
